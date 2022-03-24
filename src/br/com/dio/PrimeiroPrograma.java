@@ -7,9 +7,11 @@ public class PrimeiroPrograma {
 	public static void main(String[] args) {
 		gato gato = new gato ();
 		Livros livros = new Livros();
+		Receitas receitas = new Receitas();
 		
 		System.out.println(gato);
 		System.out.println(livros);
+		System.out.println(receitas);
 		
 	/*	int a = 2;
 		int b = 5;	
@@ -23,3 +25,8 @@ class Livros {
 	private String npag;
 	
 }
+
+	class Receitas {
+		private String bolo;
+		private String pudim;
+	}
