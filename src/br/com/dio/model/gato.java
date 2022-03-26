@@ -34,7 +34,7 @@ public class gato {
     public void setCor(String cor) {
         this.cor = cor;
     }
-
+s
     public integer getIdade() {
         return idade;
     }
